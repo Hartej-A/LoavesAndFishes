@@ -1,14 +1,11 @@
-import React, { useState } from "react";
-import "./Home/Home.css";
-import Login from "./Home/Login.js";
+import React from 'react';
 
-const Home = (props) => {
-  return (
+function Home() {
+return (
     <div>
-      <img className="logo" src="./Home/Logo.png" alt="Loaves and Fishes logo" />
-      <Login />
+        <p>Home</p>
     </div>
-  );
+)
 }
 
 export default Home;
